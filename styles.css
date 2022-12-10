@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+}
+.navbar-brand {
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 2em;
+}
+.carousel-item h5 {
+	background-color: #2828289f;
+	color: white;
+	padding: .5em;
+	border-radius: 5px;
+	width: max-content;
+	margin: auto;
+}
+.home-caption-container {
+	margin: 2em;
+	padding: 2em;
+	border-radius: 5px;
+}
+.index-card {
+	margin: 2em;
+	padding: 3em;
+	border-radius: 5px;
+}
+.index-title {
+	font-size: 2em;
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+.index-text{
+	font-size: 1em;
+}
+.blockquote {
+	font-size: 2em;
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+.main-background-img {
+	background-image: url("images/bare-feet-of-woman-in-hammock-close-up-MAMF01164.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	height: 85vh;
+	position: relative;
+}
+.main-text {
+	position: absolute;
+	border-radius: 5px;
+	margin: 3em;
+	padding: 3em;
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+#main-title {
+	font-family: 'Swanky and Moo Moo', cursive;
+	color: white;
+}
+.card-deck {
+	margin-bottom: 3em;
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 2em;
+}
+.modal-trigger-btn {
+	display: flex;
+	justify-content: center;
+	margin: 4em;
+}
+.footer {
+	padding: .5em;
+	font-size: 1.25em;
+	font-family: 'Swanky and Moo Moo', cursive;
+}

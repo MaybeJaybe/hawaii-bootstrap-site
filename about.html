@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hawaii Trip</title>
+	
+	<!-- bootstrap & bootstrap theme -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+
+	<!-- styles -->
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+</head>
+<body class="bg-primary">
+	
+	<!-- Nav -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+		<a class="navbar-brand" href="index.html">Hawaii</a>
+		<div class="navbar-nav">
+			<a class="nav-item nav-link" href="index.html">Home</a>
+			<a class="nav-item nav-link" href="main.html">Gallery</a>
+			<a class="nav-item nav-link active" href="about.html">About</a>
+		</div>
+	</nav>
+
+	<!-- About -->
+	<div class="container pb-5 pt-5 mb-5 mt-5">
+		<div class="row">
+				<div class="about col-lg-6">
+					<div class="index-card bg-secondary text-white">
+						<h2 class="index-title text-white">Here I am, making a site about somewhere I haven't gone yet.</h2>
+						<p class="index-text">To that I say, you're not wrong to think this is a website made to earn a grade. HOWEVER. I will be adding pictures of the actual trip to this site... I just haven't gotten the pictures yet. Two weeks from now I will be there celebrating christmas with my family, and I think that calls for some excitement on my part. Making a website about it? Now that's extra. I think this quote by Alvin Toffler sums up this website quite well. If only I had gone to Hawaii before this class, then I would have my own pictures and stories to write about.</p>
+						<blockquote class="blockquote">
+								<p class="mb-0 lead">"The future always arrives too fast... and in the wrong order."</p>
+								<footer class="blockquote-footer text-white">Alvin Toffler, <cite title="Source Title">futurologist and writer</cite></footer>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-lg-6">
+						<img class="card-img" src="images/Lava-Dreams-Big-Island-hawaii-23339706-1600-1200.jpeg">
+						<!-- Button trigger modal -->
+						<div class="modal-trigger-btn">
+							<button type="button" class="btn bg-secondary" id="modal-trigger-btn" data-toggle="modal" data-target="#basicExampleModal">
+								More
+							</button>
+						</div>
+					</div>
+		</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-secondary">
+        <h5 class="modal-title" id="exampleModalLabel">Want More Info?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="name" class="form-control" id="name-input" placeholder="Name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email-input" placeholder="example@gmail.com">
+				</div>
+				<div class="form-group">
+					<label for="text-area">Message:</label>
+					<textarea class="form-control" id="text-input" rows="3"></textarea>
+				</div>
+      </div>
+      <div class="modal-footer bg-secondary">
+        <button type="button" class="btn" data-dismiss="modal">Close</button>
+        <button type="button" class="btn">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Footer -->
+	<div class="footer text-center fixed-bottom navbar-dark text-white bg-secondary">
+		2022 Hawaii Trip
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+</body>
+</html>
